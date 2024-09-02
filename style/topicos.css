@@ -1,0 +1,55 @@
+.topicos-visitados{
+    background: var(--azul-degrade);
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.topicos-visitados p{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.topicos-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.topico-botao{
+    background-color: #EB9B00;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    max-width: 180px;
+    text-align: center;
+}
+
+.topico-botao:hover {
+    background-color: #D18A00;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .topico-botao {
+        max-width: 100%;
+    }
+}

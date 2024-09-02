@@ -1,0 +1,130 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+
+:root{
+    --cor-fundo: white;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --fonte-principal:"Poppins";
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.footer-section{
+    margin: 10px;
+}
+
+.footer-section ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li{
+    margin-bottom: 5px;
+    color: #474646;
+    display: flex;
+    align-items: center;
+}
+
+.footer-section ul li img{
+   margin-right: 8px;
+}
+
+.color-h3{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.color-h4{
+    margin-bottom: 10px;
+    color: #cccccc;
+}
+
+footer{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.email-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   height: 250px;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.email-content form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.email-content input[type="email"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #002F52;
+    border-radius: 24px;
+}
+
+.email-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.email-icone{
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+    color: #002F52;
+}
+
+.email-input input[type="email"]{
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.email-input input[type="email"]::placeholder {
+    color: #002F52;
+}
+
+.text-on{
+    margin:0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #002F52;
+    text-align: left;
+}
+
+.text-od{
+    margin: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #326589;
+    text-align: left;
+}
